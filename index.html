@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Document</title>
-    <script async defer src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="machine">
-      <div class="slot" id="slot1">
-        <div class="value" id="value1">😂</div>
-      </div>
-      <div class="slot" id="slot2">
-        <div class="value" id="value2">😍</div>
-      </div>
-      <div class="slot" id="slot3">
-        <div class="value" id="value3">😥</div>
-      </div>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TheSlotMachine</title>
+  <script async defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="machine">
+    <div class="slot" id="slot1">
+      <div class="value" id="value1">😅</div>
     </div>
-    <input id="inpSpeed" type="number" min="1" max="10">
-  </body>
+    <div class="slot" id="slot2">
+      <div class="value" id="value2">😍</div>
+    </div>
+    <div class="slot" id="slot3">
+      <div class="value" id="value3">😎</div>
+    </div>
+  </div>
+  <div class="speednbtn">
+    <input id="inpSpeed" type="number" min="1" max="10" placeholder="speed">
+    <button class="btn" id="btnStop">STOP</button>
+    <button class="btn" id="btnStart">RESTART</button>
+  </div>
+
+
+</body>
+
 </html>
